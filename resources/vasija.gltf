@@ -1,0 +1,129 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Lamp",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera.001",
+            "rotation" : [
+                0.3503686785697937,
+                0.6245676875114441,
+                -0.38519415259361267,
+                0.5820502638816833
+            ],
+            "translation" : [
+                10.275321960449219,
+                5.726804733276367,
+                -0.9032406210899353
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Teapot",
+            "rotation" : [
+                0,
+                0.9622191190719604,
+                0,
+                0.27227625250816345
+            ],
+            "translation" : [
+                -0.13940930366516113,
+                0,
+                -0.03258073329925537
+            ]
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Teapot",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 829,
+            "max" : [
+                3.434000015258789,
+                3.1500000953674316,
+                2
+            ],
+            "min" : [
+                -3,
+                0,
+                -2
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 829,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 4680,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 9948,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9948,
+            "byteOffset" : 9948
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9360,
+            "byteOffset" : 19896
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 29256,
+            "uri" : "Tetera.bin"
+        }
+    ]
+}
